@@ -3,11 +3,10 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 
 const navLinks = [
-  { label: "Home", href: "#home" },
+  
   { label: "Services", href: "#services" },
   { label: "Experience", href: "#experience" },
   { label: "Portfolio", href: "#portfolio" },
-  
   { label: "Contact", href: "#contact" },
 ];
 
@@ -19,8 +18,7 @@ const Navbar = () => {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.6 }}
-      className="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[95%] max-w-6xl"
-    >
+      className="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[95%] max-w-6xl">
       <div className="glass-card px-6 py-3 flex items-center justify-between">
         <a href="#home" className="text-xl font-bold gradient-text">
           Pritam
